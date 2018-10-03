@@ -26,6 +26,6 @@ def login(username,password):
             for row_psswrd in check_psswrd:
                 psswrd_validation = row_psswrd[0]
             if psswrd_validation == 1:
-                return 'Incorrect Username.'
+                return 'Invalid Username.'
             else:
-                return 'Incorrect Username and Password.'
+                return 'Invalid Username and Password.'
